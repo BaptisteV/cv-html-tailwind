@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+/* without it, width is too small when printing */
+@media screen {
+  .pdf-container {
+    @apply container;
+  }
+}
