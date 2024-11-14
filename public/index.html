@@ -9,8 +9,8 @@
 
   <body class="text-sm">
     <div class="flex flex-col m-auto pdf-container">
-      <div class="absolute p-4 end-0">
-        <button onclick="window.print()" class="inline-flex items-center print:hidden bg-slate-500 bg-opacity-10 px-4 py-1 rounded font-bold text-gray-800 outline-slate-500">
+      <div class="top-2 absolute end-4">
+        <button onclick="window.print()" class="items-center print:hidden bg-slate-500 bg-opacity-10 px-4 py-1 rounded font-bold text-gray-800 outline outline-1 outline-slate-500">
           <svg class="w-[24px] h-[24px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" stroke-linejoin="round" stroke-width="1.2" d="M16.444 18H19a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h2.556M17 11V5a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v6h10ZM7 15h10v4a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-4Z" />
           </svg>
@@ -18,7 +18,7 @@
       </div>
       <div class="grid grid-cols-3">
         <!--ligne 1-->
-        <div class="flex flex-col justify-center m-2 p-1 rounded-l-lg">
+        <div class="flex flex-col justify-center m-2 p-1 border-black border-l-[1px] rounded">
           <div class="flex flex-row">
             <!-- Email -->
             <svg class="mr-1 w-[1.5em] h-[1.5em] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -48,12 +48,13 @@
           <div class="text-2xl">Baptiste Viloin</div>
           <div>Développeur Fullstack</div>
         </div>
-        <div class="flex flex-col justify-center m-2 p-1 rounded-r-lg">
+        <div class="flex flex-col justify-center m-2 p-1 border-r-[1px] border-black rounded">
           <div class="rounded-tr-lg">
-            <img class="mx-auto rounded-full w-20 outline outline-1 outline-slate-500" src="./img/portrait.png" alt="photo portrait" />
+            <img class="mx-auto rounded-full w-20 outline outline-1 outline-slate-500" src="./portrait.png" alt="photo portrait" />
           </div>
         </div>
       </div>
+      <div class="h-12"></div>
       <!---------------------------- Ligne 2 Connaissances Compétences ----------------------------->
       <div class="flex flex-row items-stretch">
         <div class="flex flex-col m-2 border-r-[1px] border-black border-l-[1px] rounded w-1/2 text-center">
@@ -86,6 +87,7 @@
           </div>
         </div>
       </div>
+      <div class="h-6"></div>
       <!---------------------------- Etudes ----------------------------->
       <div class="p-2">
         <div class="bg-slate-500 bg-opacity-10 mb-1 p-1 border-b-[1px] border-black rounded-t font-semibold text-center text-xl">Études</div>
@@ -116,6 +118,7 @@
           </div>
         </div>
       </div>
+      <div class="h-6"></div>
       <!---------------------------- Expériences pro ----------------------------->
       <div class="p-2">
         <div class="bg-slate-500 bg-opacity-10 mb-1 p-1 border-b-[1px] border-black rounded-t font-semibold text-center text-xl">Expériences professionnelles</div>
