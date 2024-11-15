@@ -1,13 +1,9 @@
-/** @type {import('tailwindcss').Config} */
 // Start the Tailwind CLI build process
 // Run the CLI tool to scan your template files for classes and build your CSS.
-// npx tailwindcss -i input.css -o ./public/output.css --watch b*/
+// npx tailwindcss -i input.css -o ./output.css --watch b*/
 
 module.exports = {
-  content: ["./public/index.html", "./public/print.css", "./public/print.js", "./node_modules/flowbite/**/*.js"],
-  theme: {
-    extend: {},
-  },
+  content: ["./index.html", "./node_modules/flowbite/**/*.js"],
   plugins: [
     require('flowbite/plugin')
   ]
