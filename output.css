@@ -574,6 +574,10 @@ video {
   margin: auto;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -684,6 +688,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
@@ -828,10 +836,6 @@ video {
 
 .timeline-date {
   font-style: italic;
-}
-
-.dark .nav-icon {
-  color: white;
 }
 
 /* Section content grid */
