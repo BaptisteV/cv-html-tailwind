@@ -12,7 +12,7 @@
   <body class="text-sm">
     <div class="flex flex-col m-auto pdf-container">
       <div class="top-2 absolute end-4">
-        <button onclick="window.print()" class="print:hidden items-center bg-slate-500 bg-opacity-10 px-4 py-1 rounded outline outline-1 outline-slate-500 font-bold text-gray-800">
+        <button onclick="window.print()" class="print:hidden items-center bg-[rgb(241,241,241)] px-4 py-1 rounded outline outline-1 outline-slate-500 font-bold">
           <svg class="nav-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" stroke-linejoin="round" stroke-width="1.2" d="M16.444 18H19a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h2.556M17 11V5a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v6h10ZM7 15h10v4a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-4Z" />
           </svg>
@@ -43,20 +43,20 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col justify-center m-2 p-1 border-t-[1px] border-b-[1px] border-black text-center">
+        <div class="flex flex-col justify-center m-2 p-1 border-[rgb(128,128,128)] border-t-[1px] border-b-[1px] text-center">
           <div class="text-2xl">Baptiste Viloin</div>
           <div>Développeur Fullstack</div>
         </div>
-        <div class="header-card-right header-card">
-          <div class="rounded-tr-lg">
-            <img class="mx-auto rounded-full outline outline-1 outline-slate-500 w-20" src="./portrait.png" alt="photo portrait" />
+        <div class="header-card-right flex header-card">
+          <div class="rounded-tr-lg grow">
+            <img class="m-auto rounded-full outline outline-1 outline-slate-500 w-20" src="./portrait.png" alt="photo portrait" />
           </div>
         </div>
       </div>
       <div class="h-12"></div>
       <div class="flex flex-row items-stretch">
         <div class="w-1/2 text-center header-card">
-          <div class="section-with-border section-header">Connaissances</div>
+          <div class="section-with-border">Connaissances</div>
           <div class="flex flex-col justify-center">
             <div class="text-base">Développement back-end</div>
             <p>C#, Delphi, Javascript, SQL (Oracle, PostgreSQL)</p>
@@ -67,7 +67,7 @@
           </div>
         </div>
         <div class="w-1/2 text-center header-card">
-          <div class="section-with-border section-headers">Compétences</div>
+          <div class="section-with-border">Compétences</div>
           <div class="flex flex-row p-0 text-base grow">
             <div class="flex flex-col justify-center grow">
               <p>Proactivité</p>
