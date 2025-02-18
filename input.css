@@ -1,7 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind variants;
+@import 'tailwindcss';
+
+@config './tailwind.config.js';
+
+@layer utilities {
+}
 
 /* Fix container width for print */
 @media screen {
