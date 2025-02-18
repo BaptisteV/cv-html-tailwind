@@ -603,6 +603,10 @@ video {
   width: 5rem;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -788,11 +792,12 @@ video {
 /* Titres */
 
 .section-with-border {
-  background-color: rgb(100 116 139 / 0.1);
+  background-color: rgb(241, 241, 241);
   margin-bottom: 8px;
   padding: 0.25rem;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
-  box-shadow: 0px 1px 1px 0px black;
+  border-bottom: 1px solid;
+  /* offset-x | offset-y | blur-radius | spread-radius | color 
+  box-shadow: 0px 1px 0px 0px black;*/
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-left-radius: 0.25rem;
@@ -823,7 +828,7 @@ video {
 }
 
 .section-header {
-  background-color: rgb(100 116 139 / 0.1);
+  background-color: rgb(241, 241, 241);
   padding: 0.25rem;
   font-weight: 600;
   font-size: 1.25rem;
