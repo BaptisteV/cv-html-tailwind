@@ -2,8 +2,7 @@
 
 @config './tailwind.config.js';
 
-@layer utilities {
-}
+@layer utilities {}
 
 /* Fix container width for print */
 @media screen {
