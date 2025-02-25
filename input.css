@@ -4,13 +4,6 @@
 
 @layer utilities {}
 
-/* Fix container width for print */
-@media screen {
-  .pdf-container {
-    @apply container;
-  }
-}
-
 /* Icon with text layout */
 .icon-text-row {
   display: flex;
