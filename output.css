@@ -177,6 +177,9 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
   .end-4 {
     inset-inline-end: calc(var(--spacing) * 4);
   }
@@ -191,6 +194,12 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
   }
   .flex {
     display: flex;
