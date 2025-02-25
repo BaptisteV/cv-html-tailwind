@@ -34,8 +34,6 @@
 .header-card {
   display: flex;
   flex-direction: column;
-  margin: 0.5rem;
-  padding: 0.25rem;
   border-color: gray;
   border-radius: 0.25rem;
 }
@@ -46,11 +44,6 @@
 
 .header-card-right {
   border-right-width: 1px;
-}
-
-/* Main section container */
-.timeline-container {
-  padding: 0.5rem;
 }
 
 /* Études / Expériences professionnelles */
