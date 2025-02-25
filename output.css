@@ -207,6 +207,9 @@
   .grid {
     display: grid;
   }
+  .inline-block {
+    display: inline-block;
+  }
   .h-0 {
     height: calc(var(--spacing) * 0);
   }
@@ -252,6 +255,9 @@
   .justify-evenly {
     justify-content: space-evenly;
   }
+  .justify-items-center {
+    justify-items: center;
+  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
@@ -296,6 +302,9 @@
   }
   .text-justify {
     text-align: justify;
+  }
+  .align-middle {
+    vertical-align: middle;
   }
   .text-2xl {
     font-size: var(--text-2xl);
