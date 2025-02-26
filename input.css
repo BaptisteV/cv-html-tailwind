@@ -22,7 +22,7 @@
   background-color: rgb(241, 241, 241);
   margin-bottom: 8px;
   padding: 0.25rem;
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid rgb(128, 128, 128, 0.5);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   font-size: 1.25rem;
@@ -36,21 +36,24 @@
   flex-direction: column;
   border-color: gray;
   border-radius: 0.25rem;
+  padding: 0.25rem;
 }
 
 .header-card-left {
-  border-left-width: 1px;
+  border-color: rgba(128, 128, 128, 0.5);
+  border-left-width: 2px;
 }
 
 .header-card-right {
-  border-right-width: 1px;
+  border-color: rgba(128, 128, 128, 0.5);
+  border-right-width: 2px;
 }
 
 /* Études / Expériences professionnelles */
 .timeline-entry {
   padding: 0.25rem;
   border-left-width: 1px;
-  border-color: gray;
+  border-color: rgba(128, 128, 128, 0.5);
   border-radius: 0.25rem;
   flex-grow: 1;
   display: flex;
